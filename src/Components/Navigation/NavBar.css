@@ -1,0 +1,10 @@
+.NavBar {
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
