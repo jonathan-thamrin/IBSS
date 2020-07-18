@@ -4,7 +4,7 @@ import "./NavBar.css";
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="NavBar">
+      <nav>
         <ul>
           <li>Home</li>
           <li>Sign-Up</li>
@@ -13,7 +13,7 @@ class NavBar extends React.Component {
           <li>About Us</li>
           <li>Contact Us</li>
         </ul>
-      </div>
+      </nav>
     );
   }
 }

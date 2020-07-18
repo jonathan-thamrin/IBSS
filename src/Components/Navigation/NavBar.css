@@ -1,10 +1,16 @@
-.NavBar {
-  display: flex;
-  justify-content: center;
+nav {
+  width: 60%;
+  margin-left: 20%;
+  border: 1px solid red;
 }
 
-.NavBar li {
-  list-style-type: none;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
   display: inline;
+  list-style-type: none;
   color: white;
 }
