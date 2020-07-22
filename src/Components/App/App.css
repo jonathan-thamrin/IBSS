@@ -7,7 +7,14 @@ html {
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../../images/Banner/IBSS Banner.png");
-  /* border: 1px solid red; */
+}
+
+.sec-headers {
+  margin-top: 3rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1648a1;
 }
 
 .ibss-identifiers {
@@ -38,18 +45,51 @@ html {
   color: white;
 }
 
-.welTo {
+.wel-to {
   margin: 7% 0 0 0;
   /* border: 1px solid red; */
   font-size: 1.3rem;
   font-weight: 500;
 }
 
-.ISBASS {
+.isbass {
   /* border: 1px solid red; */
   display: inline-block;
   margin: 2% 0 9% 0;
   width: 60%;
   font-size: 1.8rem;
   font-weight: 700;
+}
+
+.wju {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wju p {
+  width: 60%;
+  text-align: center;
+}
+
+.wju-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.wju img {
+  width: 50%;
+  margin-top: 1%;
+}
+
+.wju-content span {
+  margin-left: 1.5rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.05rem;
+  color: #6e777d;
 }
