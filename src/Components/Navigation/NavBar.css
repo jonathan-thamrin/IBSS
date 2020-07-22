@@ -1,16 +1,28 @@
 nav {
   width: 60%;
   margin-left: 20%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
+  padding: 2.5% 0 0 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 nav li {
-  display: inline;
   list-style-type: none;
+  text-transform: uppercase;
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
   color: white;
+}
+
+.separator {
+  padding-left: 2%;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
 }

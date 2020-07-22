@@ -6,12 +6,24 @@ class NavBar extends React.Component {
     return (
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Sign-Up</li>
-          <li>Events</li>
-          <li>Sponsors</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li className="separator">
+            <a href="#">Sign-Up</a>
+          </li>
+          <li className="separator">
+            <a href="#">Events</a>
+          </li>
+          <li className="separator">
+            <a href="#">Sponsors</a>
+          </li>
+          <li className="separator">
+            <a href="#">About Us</a>
+          </li>
+          <li className="separator">
+            <a href="#">Contact Us</a>
+          </li>
         </ul>
       </nav>
     );
