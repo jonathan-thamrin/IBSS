@@ -1,28 +1,39 @@
 nav {
-  width: 60%;
-  margin-left: 20%;
+  width: 65%;
+  margin-left: 17.5%;
   /* border: 1px solid red; */
 }
 
 nav ul {
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 2.5% 0 0 0;
+  padding: 2% 0 0 0;
   border-top: 2px solid rgba(255, 255, 255, 0.4);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 nav li {
   list-style-type: none;
-  text-transform: uppercase;
   display: inline;
 }
 
 nav li a {
-  text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .separator {
   padding-left: 2%;
   border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.subtitles {
+  margin: 3% 0 0 0;
+  text-transform: none;
+  color: white;
+  opacity: 60%;
 }

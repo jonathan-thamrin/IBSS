@@ -10,9 +10,15 @@ class App extends React.Component {
       <div className="header">
         <div className="ibss-identifiers">
           <img id="logo-pic" src={logo} alt="logo" />
-          <h1 id="logo-name">IBSS</h1>
+          <span id="logo-name">IBSS</span>
         </div>
         <NavBar />
+        <div className="introduction">
+          <p className="welTo">Welcome to</p>
+          <p className="ISBASS">
+            INFORMATION SYSTEMS & BUSINESS ANALYTICS STUDENT SOCIETY
+          </p>
+        </div>
       </div>
     );
   }

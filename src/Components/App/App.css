@@ -14,9 +14,9 @@ html {
 .ibss-identifiers {
   display: flex;
   align-items: center;
-  width: 60%;
+  width: 65%;
   padding-top: 4%;
-  margin-left: 20%;
+  margin-left: 17.5%;
   /* border: 1px solid red; */
 }
 
@@ -26,8 +26,32 @@ html {
 }
 
 #logo-name {
-  font-size: 2rem;
+  margin-left: 1%;
   font-family: "Work Sans", sans-serif;
+  font-size: 2.2rem;
   font-weight: 700;
   color: white;
+}
+
+.introduction {
+  /* border: 1px solid red; */
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.welTo {
+  margin: 5% 0 0 0;
+  /* border: 1px solid red; */
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.ISBASS {
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin: 2% 0 10% 0;
+  width: 60%;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
