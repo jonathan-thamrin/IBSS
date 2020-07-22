@@ -3,7 +3,6 @@ html {
 }
 
 .header {
-  width: 100%;
   display: block;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -14,9 +13,8 @@ html {
 .ibss-identifiers {
   display: flex;
   align-items: center;
-  width: 65%;
-  padding-top: 4%;
-  margin-left: 17.5%;
+  padding-top: 3%;
+  margin-left: 20%;
   /* border: 1px solid red; */
 }
 
@@ -26,7 +24,7 @@ html {
 }
 
 #logo-name {
-  margin-left: 1%;
+  margin-left: 0.5%;
   font-family: "Work Sans", sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
@@ -41,7 +39,7 @@ html {
 }
 
 .welTo {
-  margin: 5% 0 0 0;
+  margin: 7% 0 0 0;
   /* border: 1px solid red; */
   font-size: 1.3rem;
   font-weight: 500;
@@ -50,7 +48,7 @@ html {
 .ISBASS {
   /* border: 1px solid red; */
   display: inline-block;
-  margin: 2% 0 10% 0;
+  margin: 2% 0 9% 0;
   width: 60%;
   font-size: 1.8rem;
   font-weight: 700;

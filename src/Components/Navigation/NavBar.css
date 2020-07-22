@@ -1,6 +1,6 @@
 nav {
-  width: 65%;
-  margin-left: 17.5%;
+  width: 60%;
+  margin-left: 20%;
   /* border: 1px solid red; */
 }
 
@@ -35,5 +35,5 @@ nav li a {
   margin: 3% 0 0 0;
   text-transform: none;
   color: white;
-  opacity: 60%;
+  opacity: 0.6;
 }
