@@ -1,0 +1,22 @@
+ul {
+  /* border: 1px solid red; */
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 3rem;
+}
+
+li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.divider {
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}

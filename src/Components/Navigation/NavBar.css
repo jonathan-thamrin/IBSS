@@ -37,6 +37,8 @@ nav ul {
 }
 
 nav li {
+  /* border: 1px solid red; */
+  margin-left: -2.8rem;
   list-style-type: none;
   display: inline;
 }

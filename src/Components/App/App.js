@@ -4,6 +4,7 @@ import collage from "../../images/Why Join Us/collage.png";
 import placeholder from "../../images/placeholder.png";
 
 import NavBar from "../Navigation/NavBar";
+import Footer from "../Footer/Footer";
 
 class App extends React.Component {
   render() {
@@ -87,6 +88,10 @@ class App extends React.Component {
               <img src={placeholder} alt="placeholder" />
             </div>
           </div>
+        </div>
+
+        <div className="footer">
+          <Footer />
         </div>
       </div>
     );

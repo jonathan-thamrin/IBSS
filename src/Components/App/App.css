@@ -105,6 +105,7 @@ html {
 }
 
 .text-content-href {
+  /* border: 1px solid red; */
   margin-top: 2rem;
   margin-bottom: 3rem;
   text-decoration: underline;
@@ -119,12 +120,22 @@ html {
 }
 
 .recent-photos {
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .recent-photos img {
+  /* border: 1px solid red; */
   width: 22.5%;
   margin-top: 1rem;
+}
+
+.footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #071327;
 }
