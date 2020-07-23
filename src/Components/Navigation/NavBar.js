@@ -18,7 +18,7 @@ class NavBar extends React.Component {
               <p className="subtitles">Main Page</p>
             </li>
             <li className="separator">
-              <a href="#">Sign-Up</a>
+              <a href="https://forms.google.com">Sign-Up</a>
               <p className="subtitles">Join IBSS</p>
             </li>
             <li className="separator">
