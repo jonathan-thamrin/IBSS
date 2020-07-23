@@ -56,6 +56,38 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+
+        <div className="sec-div">
+          <p className="sec-heading">Join IBSS</p>
+          <p className="text-content-font sec-subtitles">
+            If IBSS sounds like the perfect club for you, sign up today using
+            the form below:
+          </p>
+          <div className="sec-content">
+            <a href="http://google.com" className="text-content-href">
+              <span className="text-content-link">Sign-up Form →</span>
+            </a>
+          </div>
+        </div>
+
+        <div className="light-blue-background">
+          <div className="sec-div">
+            <p className="sec-heading">Our 2020 Sponsors</p>
+            <p className="text-content-font sec-subtitles">
+              IBSS was made possible by our generous sponsors.
+            </p>
+            <div className="sec-content recent-photos">
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
