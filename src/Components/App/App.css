@@ -9,14 +9,6 @@ html {
   background-image: url("../../images/Banner/IBSS Banner.png");
 }
 
-.sec-headers {
-  margin-top: 3rem;
-  font-family: "Work Sans", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #1648a1;
-}
-
 .ibss-identifiers {
   display: flex;
   align-items: center;
@@ -61,35 +53,64 @@ html {
   font-weight: 700;
 }
 
-.wju {
-  width: 60%;
-  margin-left: 20%;
+.sec-div {
+  /* border: 1px solid red; */
+  width: 70%;
+  margin-left: 15%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.wju p {
-  width: 60%;
   text-align: center;
 }
 
-.wju-content {
+.light-blue-background {
+  background: #f3f5f8;
+}
+
+.sec-heading {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1648a1;
+}
+
+.sec-content {
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
 }
 
-.wju img {
-  width: 50%;
-  margin-top: 1%;
-}
-
-.wju-content span {
-  margin-left: 1.5rem;
+.text-content-font {
+  /* border: 1px solid red; */
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: #6e777d;
+}
+
+.text-content-img {
+  /* border: 1px solid red; */
+  margin-left: 1.5rem;
+}
+
+.why-join-us img {
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.recent-photos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.recent-photos img {
+  width: 22.5%;
+  margin-top: 1rem;
 }

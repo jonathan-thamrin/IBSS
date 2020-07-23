@@ -1,6 +1,27 @@
+.ibss-identifiers {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  margin-left: 15%;
+  /* border: 1px solid red; */
+}
+
+#logo-pic {
+  width: 5rem;
+  height: 5rem;
+}
+
+#logo-name {
+  margin-left: 0.5%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: white;
+}
+
 nav {
-  width: 60%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 15%;
   /* border: 1px solid red; */
 }
 
