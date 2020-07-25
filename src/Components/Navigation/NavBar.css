@@ -11,7 +11,7 @@
   height: 5rem;
 }
 
-#logo-name {
+#logo-acronym {
   margin-left: 0.5%;
   font-family: "Work Sans", sans-serif;
   font-size: 2.2rem;
@@ -38,7 +38,6 @@ nav ul {
 
 nav li {
   /* border: 1px solid red; */
-  margin-left: -2.8rem;
   list-style-type: none;
   display: inline;
 }
@@ -59,4 +58,49 @@ nav li a {
   text-transform: none;
   color: white;
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .ibss-identifiers {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding-top: 8%;
+    justify-content: center;
+  }
+
+  #logo-pic {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  #logo-acronym {
+    margin-left: 0.5%;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 00;
+    color: white;
+  }
+
+  nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    display: block;
+    padding: 3% 0 0 0;
+    text-align: center;
+  }
+
+  .separator {
+    border: none;
+    padding: 0;
+  }
+
+  .subtitles {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
 }

@@ -5,14 +5,14 @@ class Footer extends React.Component {
   render() {
     return (
       <ul className="footer">
-        <li>
+        <li className="social-link">
           <a href="https://www.facebook.com/ibss.uoa/">FaceBook</a>
         </li>
-        <li className="divider">
+        <li className="divider social-link">
           <a href="https://www.instagram.com/uoa.ibss">Instagram</a>
         </li>
-        <li className="divider">
-          <a href="#">LinkedIn</a>
+        <li className="divider social-link">
+          <a href="https://www.linkedin.com/company/uoaibss/">LinkedIn</a>
         </li>
       </ul>
     );

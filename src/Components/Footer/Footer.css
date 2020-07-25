@@ -1,13 +1,13 @@
 ul {
   /* border: 1px solid red; */
+  padding: 0;
+  margin: 1.5rem 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
 }
 
-li {
-  list-style-type: none;
-  display: inline;
+.social-link {
   padding: 0 3rem;
 }
 
@@ -19,4 +19,10 @@ li a {
 
 .divider {
   border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@media only screen and (max-width: 768px) {
+  .social-link {
+    padding: 0 1rem;
+  }
 }

@@ -8,7 +8,7 @@ class NavBar extends React.Component {
       <div>
         <div className="ibss-identifiers">
           <img id="logo-pic" src={logo} alt="logo" />
-          <span id="logo-name">IBSS</span>
+          <span id="logo-acronym">IBSS</span>
         </div>
 
         <nav>
@@ -18,7 +18,12 @@ class NavBar extends React.Component {
               <p className="subtitles">Main Page</p>
             </li>
             <li className="separator">
-              <a href="https://forms.google.com">Sign-Up</a>
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
+              >
+                Sign-Up
+              </a>
               <p className="subtitles">Join IBSS</p>
             </li>
             <li className="separator">

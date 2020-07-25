@@ -9,7 +9,7 @@ import Footer from "../Footer/Footer";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <div className="header">
           <NavBar />
           <div className="introduction">
@@ -65,8 +65,13 @@ class App extends React.Component {
             the form below:
           </p>
           <div className="sec-content">
-            <a href="http://google.com" className="text-content-href">
-              <span className="text-content-link">Sign-up Form →</span>
+            <a
+              className="text-content-href"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
+            >
+              <span target="_blank" className="text-content-link">
+                Sign-up Form →
+              </span>
             </a>
           </div>
         </div>
