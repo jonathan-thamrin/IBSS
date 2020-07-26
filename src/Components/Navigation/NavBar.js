@@ -50,7 +50,7 @@ class NavBar extends React.Component {
                 <p className="subtitles">Key Dates</p>
               </li>
             </Link>
-            <Link to="/about" className="router-link separator">
+            <Link to="/sponsors" className="router-link separator">
               <li>
                 <span>Sponsors</span>
                 <p className="subtitles">2020 Funding</p>

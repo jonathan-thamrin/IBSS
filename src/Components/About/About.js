@@ -5,6 +5,7 @@ import { isMobile } from "react-device-detect";
 import Aimee from "../../images/Executive/Aimee.jpg";
 import Angela from "../../images/Executive/Angela.JPG";
 import Cecilia from "../../images/Executive/Cecilia.JPG";
+import Estella from "../../images/Executive/Estella.jpeg";
 import Esther from "../../images/Executive/Esther.jpeg";
 import Iven from "../../images/Executive/Iven.jpg";
 import Jade from "../../images/Executive/Jade.jpg";
@@ -92,7 +93,7 @@ class About extends React.Component {
                 <p className="member-name">KeXin Li</p>
               </div>
               <div className="member-exec">
-                <img src={PortraitPH} alt="estella-pic" />
+                <img src={Estella} alt="estella-pic" />
                 <p className="member-name">Estella Wong</p>
               </div>
               <div className="member-exec">
