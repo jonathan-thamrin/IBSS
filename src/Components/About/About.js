@@ -1,5 +1,12 @@
 import React from "react";
 import "./About.css";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile,
+} from "react-device-detect";
+
 import Cecilia from "../../images/Executive/Cecilia.JPG";
 import Angela from "../../images/Executive/Angela.JPG";
 import Aimee from "../../images/Executive/Aimee.jpg";
@@ -16,6 +23,8 @@ import Footer from "../Footer/Footer";
 
 class About extends React.Component {
   render() {
+    const lightBlueMob = isMobile ? "light-blue-background" : "";
+    const whiteMob = isMobile ? "" : "light-blue-background";
     return (
       <div className="main">
         <div className="header">
@@ -28,9 +37,31 @@ class About extends React.Component {
           </div>
         </div>
 
+        <div className="light-blue-background">
+          <div className="sec-div-about">
+            <p className="sec-heading">What We Do</p>
+            <p className="text-content-font sec-subtitles">
+              We aim to provide students from all faculties with the
+              opportunities to guide career paths, provide a space to meet new
+              friends, host workshops and speaker events with industry
+              professionals. Through interactive events and networking functions
+              we hope to give students the confidence to go out into the
+              industry.
+            </p>
+          </div>
+        </div>
+
+        <div className="sec-div-about">
+          <p className="sec-heading">Who We Are</p>
+          <p className="text-content-font sec-subtitles">
+            We are The University of Auckland's Information Systems and Business
+            Analytics Student Society starting in Semester 2!
+          </p>
+        </div>
+
         <div className="sec-div-pres">
           <div className="members-pres-div">
-            <div className="member-img-padding member-pres">
+            <div className="member-pres">
               <p className="sec-heading-pres sec-heading-font blue-font">
                 President
               </p>
@@ -38,7 +69,7 @@ class About extends React.Component {
               <p className="member-name team-lead">Cecilia Wang</p>
             </div>
 
-            <div className="member-img-padding member-pres">
+            <div className="member-pres">
               <p className="sec-heading-pres sec-heading-font blue-font">
                 Vice-President
               </p>
@@ -132,18 +163,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          <div className="members-exec-div">
-            <p className="sec-heading-exec sec-heading-font light-blue-font">
-              Technical
-            </p>
-            <div className="members-exec">
-              <div className="member-exec">
-                <img src={Jonathan} alt="jonathan-pic" />
-                <p className="member-name team-lead">Jonathan Thamrin</p>
-              </div>
-            </div>
-          </div>
-          <div className="members-exec-div">
+          <div className={`members-exec-div ${lightBlueMob}`}>
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Creative
             </p>
@@ -155,6 +175,17 @@ class About extends React.Component {
               <div className="member-exec">
                 <img src={PortraitPH} alt="jade-pic" />
                 <p className="member-name">Jade Chan</p>
+              </div>
+            </div>
+          </div>
+          <div className={`members-exec-div ${lightBlueMob}`}>
+            <p className="sec-heading-exec sec-heading-font light-blue-font">
+              Technical
+            </p>
+            <div className="members-exec">
+              <div className="member-exec">
+                <img src={Jonathan} alt="jonathan-pic" />
+                <p className="member-name team-lead">Jonathan Thamrin</p>
               </div>
             </div>
           </div>

@@ -23,18 +23,15 @@ class App extends React.Component {
         <div className="sec-div why-join-us">
           <p className="sec-heading">Why Join Us?</p>
           <p className="text-content-font sec-subtitles">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis
-            justo consequat turpis ultrices dapibus. Fusce porttitor posuere
-            vestibulum.
+            Are you interested Business? Technology? Or both?
           </p>
           <div className="sec-content sec-content-mobile">
             <img src={collage} alt="collage" id="why-join-us-img" />
             <span className="text-content-font" id="why-join-us-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              mollis justo consequat turpis ultrices dapibus. Fusce porttitor
-              posuere vestibulum. Sed eget porta nibh, non pellentesque lectus.
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.
+              Information Systems and Business Analytics is one of the fastest
+              growing industries in the world, and the Information Systems and
+              Business Analytics Society can help you be a part of it. Come join
+              us and expand your network and skills along the way.
             </span>
           </div>
         </div>
