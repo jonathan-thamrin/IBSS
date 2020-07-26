@@ -27,7 +27,10 @@ class App extends React.Component {
           </p>
           <div className="sec-content sec-content-mobile">
             <img src={collage} alt="collage" id="why-join-us-img" />
-            <span className="text-content-font" id="why-join-us-text">
+            <span
+              className="text-content-font light-font"
+              id="why-join-us-text"
+            >
               Information Systems and Business Analytics is one of the fastest
               growing industries in the world, and the Information Systems and
               Business Analytics Society can help you be a part of it. Come join
@@ -63,6 +66,7 @@ class App extends React.Component {
             <div className="sec-content">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-content-href"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
               >
@@ -97,6 +101,7 @@ class App extends React.Component {
             <div className="sec-content">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-content-href"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScivTQdUD6rvBsglO1USAyABmDrVrdR6qz-xNDaCeWlcalIMg/viewform"
               >

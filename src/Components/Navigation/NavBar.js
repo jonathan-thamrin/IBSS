@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 import logo from "../../images/IBSS Logo white.png";
 
@@ -28,10 +29,12 @@ class NavBar extends React.Component {
         <nav>
           <ul className={`nav-links nav-font ${navVis}`}>
             <i onClick={this.toggleNav} className="arrow left"></i>
-            <li className="first-element">
-              <a href="#">Home</a>
-              <p className="subtitles">Main Page</p>
-            </li>
+            <Link to="/" className="router-link first-element">
+              <li className="first-element">
+                <span>Home</span>
+                <p className="subtitles">Main Page</p>
+              </li>
+            </Link>
             <li className="separator">
               <a
                 target="_blank"
@@ -41,22 +44,30 @@ class NavBar extends React.Component {
               </a>
               <p className="subtitles">Join IBSS</p>
             </li>
-            <li className="separator">
-              <a href="#">Events</a>
-              <p className="subtitles">Key Dates</p>
-            </li>
-            <li className="separator">
-              <a href="#">Sponsors</a>
-              <p className="subtitles">2020 Funding</p>
-            </li>
-            <li className="separator">
-              <a href="#">About Us</a>
-              <p className="subtitles">Meet the Team</p>
-            </li>
-            <li className="separator last-element">
-              <a href="#">Contact Us</a>
-              <p className="subtitles">Get in Touch</p>
-            </li>
+            <Link to="/events" className="router-link separator">
+              <li>
+                <span>Events</span>
+                <p className="subtitles">Key Dates</p>
+              </li>
+            </Link>
+            <Link to="/about" className="router-link separator">
+              <li>
+                <span>Sponsors</span>
+                <p className="subtitles">2020 Funding</p>
+              </li>
+            </Link>
+            <Link to="/about" className="router-link separator">
+              <li>
+                <span>About Us</span>
+                <p className="subtitles">Meet the Team</p>
+              </li>
+            </Link>
+            <Link to="/contact" className="router-link separator last-element">
+              <li>
+                <span>Contact Us</span>
+                <p className="subtitles">Get in Touch</p>
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>

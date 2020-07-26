@@ -20,6 +20,8 @@
 }
 
 nav {
+  position: absolute;
+  z-index: 1;
   width: 70%;
   margin-left: 15%;
   /* border: 1px solid red; */
@@ -45,9 +47,14 @@ nav {
   display: inline;
 }
 
+.nav-links li span,
 .nav-links li a {
   color: white;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.router-link {
   text-decoration: none;
 }
 

@@ -1,0 +1,34 @@
+html {
+  font-size: 18px;
+}
+
+.socials-list {
+  padding: 0;
+  padding-bottom: 7%;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+.socials-list li {
+  width: 100%;
+  padding: 2% 0;
+}
+
+.email-href {
+  padding-bottom: 30%;
+  margin-top: 1rem;
+  text-decoration: underline;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #6e777d;
+}
+
+@media only screen and (max-width: 768px) {
+  .email-href {
+    padding-bottom: 0;
+  }
+}

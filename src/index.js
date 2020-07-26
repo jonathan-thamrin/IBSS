@@ -1,16 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./Components/App/App";
-import About from "./Components/About/About";
+import Home from "./Components/Home/Home";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <About />
-    {/* The various pages will be displayed by the `Main` component. */}
-  </BrowserRouter>,
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

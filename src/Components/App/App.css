@@ -7,6 +7,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../../images/Banner/IBSS Banner.png");
+  /* background-color: red; */
 }
 
 .introduction {
@@ -18,7 +19,7 @@ html {
 
 .wel-to {
   /* border: 1px solid red; */
-  margin: 7% 0 0 0;
+  margin: 10% 0 0 0;
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -93,6 +94,10 @@ html {
   color: #6e777d;
 }
 
+.light-font {
+  font-weight: 300;
+}
+
 .text-content-href {
   /* border: 1px solid red; */
   margin-top: 2rem;
@@ -123,14 +128,8 @@ html {
 .recent-photos img {
   /* border: 1px solid red; */
   width: 32%;
+  padding: 0 0.5%;
   margin-top: 1rem;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #071327;
 }
 
 @media only screen and (max-width: 768px) {

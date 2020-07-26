@@ -1,11 +1,6 @@
 import React from "react";
 import "./About.css";
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile,
-} from "react-device-detect";
+import { isMobile } from "react-device-detect";
 
 import Aimee from "../../images/Executive/Aimee.jpg";
 import Angela from "../../images/Executive/Angela.JPG";
