@@ -6,13 +6,19 @@ class Footer extends React.Component {
     return (
       <ul className="footer">
         <li className="social-link">
-          <a href="https://www.facebook.com/ibss.uoa/">FaceBook</a>
+          <a target="_blank" href="https://www.facebook.com/ibss.uoa/">
+            FaceBook
+          </a>
         </li>
         <li className="divider social-link">
-          <a href="https://www.instagram.com/uoa.ibss">Instagram</a>
+          <a target="_blank" href="https://www.instagram.com/uoa.ibss">
+            Instagram
+          </a>
         </li>
         <li className="divider social-link">
-          <a href="https://www.linkedin.com/company/uoaibss/">LinkedIn</a>
+          <a target="_blank" href="https://www.linkedin.com/company/uoaibss/">
+            LinkedIn
+          </a>
         </li>
       </ul>
     );

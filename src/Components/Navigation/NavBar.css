@@ -25,24 +25,27 @@ nav {
   /* border: 1px solid red; */
 }
 
-nav ul {
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-between;
-  padding: 1% 0 0 0;
-  border-top: 2px solid rgba(255, 255, 255, 0.4);
+.nav-font {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
 }
 
-nav li {
+.nav-links {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0 0 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.nav-links li {
   /* border: 1px solid red; */
   list-style-type: none;
   display: inline;
 }
 
-nav li a {
+.nav-links li a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -60,11 +63,38 @@ nav li a {
   opacity: 0.6;
 }
 
+.last-element {
+  margin-right: 5%;
+}
+
+/************* BURGER MENU NAVIGATION *************/
+
+.nav-burger {
+  display: none;
+  position: absolute;
+  top: 2.48rem;
+  left: 2rem;
+}
+
+.nav-burger div {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: white;
+}
+
+.arrow,
+.left {
+  display: none;
+}
+
+/**************************************************/
+
 @media only screen and (max-width: 768px) {
   .ibss-identifiers {
     /* border: 1px solid red; */
     margin: 0;
-    padding-top: 8%;
+    padding-top: 2rem;
     justify-content: center;
   }
 
@@ -81,15 +111,49 @@ nav li a {
     color: white;
   }
 
-  nav {
-    width: 80%;
-    margin: 0 auto;
+  .nav-burger {
+    display: block;
+    cursor: pointer;
   }
 
-  nav ul {
-    display: block;
-    padding: 3% 0 0 0;
+  .nav-links {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 2.8rem;
+    left: 2.6rem;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .first-element {
+    margin-top: 60%;
+  }
+
+  .last-element {
+    margin-right: 0;
+    margin-bottom: 60%;
   }
 
   .separator {
@@ -99,8 +163,11 @@ nav li a {
 
   .subtitles {
     border-bottom: 2px solid rgba(255, 255, 255, 0.4);
-    padding-bottom: 3%;
-    margin-top: 1%;
-    margin-bottom: 3%;
+    padding-bottom: 5%;
   }
+}
+
+.nav-active {
+  transform: translateX(0);
+  box-shadow: 0 0 50px;
 }

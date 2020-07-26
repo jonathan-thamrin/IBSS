@@ -27,9 +27,9 @@ class App extends React.Component {
             justo consequat turpis ultrices dapibus. Fusce porttitor posuere
             vestibulum.
           </p>
-          <div className="sec-content">
-            <img src={collage} alt="collage" />
-            <span className="text-content-font text-content-img">
+          <div className="sec-content sec-content-mobile">
+            <img src={collage} alt="collage" id="why-join-us-img" />
+            <span className="text-content-font" id="why-join-us-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
               mollis justo consequat turpis ultrices dapibus. Fusce porttitor
               posuere vestibulum. Sed eget porta nibh, non pellentesque lectus.
@@ -52,45 +52,59 @@ class App extends React.Component {
               <img src={placeholder} alt="placeholder" />
               <img src={placeholder} alt="placeholder" />
               <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
+            </div>
+          </div>
+        </div>
+
+        <div className="dark-blue-background">
+          <div className="sec-div">
+            <p className="sec-heading">Join IBSS</p>
+            <p className="text-content-font sec-subtitles">
+              If IBSS sounds like the perfect club for you, sign up today using
+              the form below:
+            </p>
+            <div className="sec-content">
+              <a
+                target="_blank"
+                className="text-content-href"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
+              >
+                <span className="text-content-link">Sign-up Form →</span>
+              </a>
             </div>
           </div>
         </div>
 
         <div className="sec-div">
-          <p className="sec-heading">Join IBSS</p>
+          <p className="sec-heading">Our 2020 Sponsors</p>
           <p className="text-content-font sec-subtitles">
-            If IBSS sounds like the perfect club for you, sign up today using
-            the form below:
+            IBSS was made possible by our generous sponsors.
           </p>
-          <div className="sec-content">
-            <a
-              className="text-content-href"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
-            >
-              <span target="_blank" className="text-content-link">
-                Sign-up Form →
-              </span>
-            </a>
+          <div className="sec-content recent-photos">
+            <img src={placeholder} alt="placeholder" />
+            <img src={placeholder} alt="placeholder" />
+            <img src={placeholder} alt="placeholder" />
+            <img src={placeholder} alt="placeholder" />
+            <img src={placeholder} alt="placeholder" />
+            <img src={placeholder} alt="placeholder" />
           </div>
         </div>
 
         <div className="light-blue-background">
           <div className="sec-div">
-            <p className="sec-heading">Our 2020 Sponsors</p>
+            <p className="sec-heading">Join our Mailing List</p>
             <p className="text-content-font sec-subtitles">
-              IBSS was made possible by our generous sponsors.
+              Want to be the first to know about our latest events, case
+              competitions and more?
             </p>
-            <div className="sec-content recent-photos">
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
+            <div className="sec-content">
+              <a
+                target="_blank"
+                className="text-content-href"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScivTQdUD6rvBsglO1USAyABmDrVrdR6qz-xNDaCeWlcalIMg/viewform"
+              >
+                <span className="text-content-link">Mailing List →</span>
+              </a>
             </div>
           </div>
         </div>

@@ -3,17 +3,32 @@ import "./NavBar.css";
 import logo from "../../images/IBSS Logo white.png";
 
 class NavBar extends React.Component {
+  state = { showNav: false };
+
+  toggleNav = () => {
+    this.setState({ showNav: !this.state.showNav });
+    console.log(this.state.showNav);
+  };
+
   render() {
+    const navVis = this.state.showNav ? "nav-active" : "";
+
     return (
       <div>
         <div className="ibss-identifiers">
           <img id="logo-pic" src={logo} alt="logo" />
           <span id="logo-acronym">IBSS</span>
+          <div onClick={this.toggleNav} className="nav-burger">
+            <div className="nav-burger-1"></div>
+            <div className="nav-burger-2"></div>
+            <div className="nav-burger-3"></div>
+          </div>
         </div>
 
         <nav>
-          <ul>
-            <li>
+          <ul className={`nav-links nav-font ${navVis}`}>
+            <i onClick={this.toggleNav} className="arrow left"></i>
+            <li className="first-element">
               <a href="#">Home</a>
               <p className="subtitles">Main Page</p>
             </li>
@@ -38,7 +53,7 @@ class NavBar extends React.Component {
               <a href="#">About Us</a>
               <p className="subtitles">Meet the Team</p>
             </li>
-            <li className="separator">
+            <li className="separator last-element">
               <a href="#">Contact Us</a>
               <p className="subtitles">Get in Touch</p>
             </li>

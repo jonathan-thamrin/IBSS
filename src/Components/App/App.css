@@ -32,6 +32,24 @@ html {
   font-weight: 700;
 }
 
+.light-blue-background {
+  background: #f3f5f8;
+}
+
+.dark-blue-background {
+  background: rgb(14, 38, 76);
+  background-image: url("../../images/ibss-logo-bb-10.png");
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  background-position-x: 110%;
+  background-position-y: -50%;
+}
+
+.dark-blue-background div p,
+.dark-blue-background div div a {
+  color: white;
+}
+
 .sec-div {
   /* border: 1px solid red; */
   width: 70%;
@@ -40,10 +58,6 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-}
-
-.light-blue-background {
-  background: #f3f5f8;
 }
 
 .sec-heading {
@@ -58,7 +72,9 @@ html {
 }
 
 .sec-subtitles {
+  font-size: 1rem;
   width: 100%;
+  /* margin-bottom: 2rem; */
 }
 
 .sec-content {
@@ -73,20 +89,14 @@ html {
 .text-content-font {
   /* border: 1px solid red; */
   font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 400;
   color: #6e777d;
-}
-
-.text-content-img {
-  /* border: 1px solid red; */
-  margin-left: 1.5rem;
 }
 
 .text-content-href {
   /* border: 1px solid red; */
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-decoration: underline;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
@@ -94,7 +104,12 @@ html {
   color: #6e777d;
 }
 
-.why-join-us img {
+#why-join-us-text {
+  /* border: 1px solid red; */
+  margin-left: 1.5rem;
+}
+
+#why-join-us-img {
   width: 50%;
 }
 
@@ -107,7 +122,7 @@ html {
 
 .recent-photos img {
   /* border: 1px solid red; */
-  width: 22.5%;
+  width: 32%;
   margin-top: 1rem;
 }
 
@@ -124,6 +139,7 @@ html {
   }
 
   .wel-to {
+    margin: 17% 0 0 0;
     font-size: 1.2rem;
     font-weight: 300;
   }
@@ -131,7 +147,7 @@ html {
   .isbass {
     /* border: 1px solid red; */
     display: inline-block;
-    margin: 2% 0 9% 0;
+    margin: 7% 0 17% 0;
     width: 80%;
     font-size: 1rem;
     font-weight: 500;
@@ -140,5 +156,37 @@ html {
   .sec-div {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .sec-content-mobile {
+    flex-wrap: wrap;
+  }
+
+  .sec-heading {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+
+  .sec-subtitles {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  #why-join-us-text {
+    /* border: 1px solid red; */
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  #why-join-us-img {
+    margin: 5% 0;
+    width: 100%;
+  }
+
+  .dark-blue-background {
+    background-size: 30rem;
+    background-position-x: -70%;
+    background-position-y: -30%;
   }
 }
