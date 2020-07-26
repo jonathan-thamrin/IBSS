@@ -7,15 +7,19 @@ import {
   isMobile,
 } from "react-device-detect";
 
-import Cecilia from "../../images/Executive/Cecilia.JPG";
-import Angela from "../../images/Executive/Angela.JPG";
 import Aimee from "../../images/Executive/Aimee.jpg";
+import Angela from "../../images/Executive/Angela.JPG";
+import Cecilia from "../../images/Executive/Cecilia.JPG";
 import Esther from "../../images/Executive/Esther.jpeg";
 import Iven from "../../images/Executive/Iven.jpg";
+import Jade from "../../images/Executive/Jade.jpg";
+import Jonathan from "../../images/Executive/Jonathan.jpeg";
 import KeXin from "../../images/Executive/KeXin.jpeg";
+import Pritika from "../../images/Executive/Pritika.JPG";
+import Reeshan from "../../images/Executive/Reeshan.jpg";
 import YangYang from "../../images/Executive/YangYang.png";
 import Yashika from "../../images/Executive/Yashika.jpg";
-import Jonathan from "../../images/Executive/Jonathan.jpeg";
+
 import PortraitPH from "../../images/Executive/portrait-ph.jpg";
 
 import NavBar from "../Navigation/NavBar";
@@ -24,7 +28,6 @@ import Footer from "../Footer/Footer";
 class About extends React.Component {
   render() {
     const lightBlueMob = isMobile ? "light-blue-background" : "";
-    const whiteMob = isMobile ? "" : "light-blue-background";
     return (
       <div className="main">
         <div className="header">
@@ -87,7 +90,7 @@ class About extends React.Component {
             <div className="members-exec">
               <div className="member-exec">
                 <img src={Iven} alt="iven-pic" />
-                <p className="member-name team-lead">Iven Li</p>
+                <p className="member-name team-lead">Iven Li (Lead)</p>
               </div>
               <div className="member-exec">
                 <img src={KeXin} alt="kexin-pic" />
@@ -107,18 +110,18 @@ class About extends React.Component {
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Events
             </p>
-            <div className="members-exec">
+            <div className="members-exec last-member">
               <div className="member-exec">
                 <img src={Esther} alt="esther-pic" />
-                <p className="member-name team-lead">Esther Yang</p>
+                <p className="member-name team-lead">Esther Yang (Lead)</p>
               </div>
               <div className="member-exec">
-                <img src={PortraitPH} alt="jade-pic" />
-                <p className="member-name">Jade Chan</p>
-              </div>
-              <div className="member-exec">
-                <img src={PortraitPH} alt="pritika-pic" />
+                <img src={Pritika} alt="pritika-pic" />
                 <p className="member-name">Pritika Chand</p>
+              </div>
+              <div className="member-exec">
+                <img src={Jade} alt="jade-pic" />
+                <p className="member-name">Jade Chan</p>
               </div>
               <div className="member-exec">
                 <img src={PortraitPH} alt="kabilan-pic" />
@@ -136,7 +139,7 @@ class About extends React.Component {
             <div className="members-exec">
               <div className="member-exec">
                 <img src={Yashika} alt="yashika-pic" />
-                <p className="member-name team-lead">Yashika Khetan</p>
+                <p className="member-name team-lead">Yashika Khetan (Lead)</p>
               </div>
               <div className="member-exec">
                 <img src={KeXin} alt="kexin-pic" />
@@ -148,14 +151,14 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          <div className="members-exec-div">
+          <div className="members-exec-div last-member">
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Treasury
             </p>
             <div className="members-exec">
               <div className="member-exec">
-                <img src={PortraitPH} alt="reeshan-pic" />
-                <p className="member-name team-lead">Reeshan Kishore</p>
+                <img src={Reeshan} alt="reeshan-pic" />
+                <p className="member-name team-lead">Reeshan Kishore (Lead)</p>
               </div>
               <div className="member-exec">
                 <img src={YangYang} alt="yangyang-pic" />
@@ -170,10 +173,10 @@ class About extends React.Component {
             <div className="members-exec">
               <div className="member-exec">
                 <img src={Aimee} alt="aimee-pic" />
-                <p className="member-name team-lead">Aimee Lam</p>
+                <p className="member-name team-lead">Aimee Lam (Lead)</p>
               </div>
               <div className="member-exec">
-                <img src={PortraitPH} alt="jade-pic" />
+                <img src={Jade} alt="jade-pic" />
                 <p className="member-name">Jade Chan</p>
               </div>
             </div>
@@ -182,10 +185,10 @@ class About extends React.Component {
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Technical
             </p>
-            <div className="members-exec">
+            <div className="members-exec last-member">
               <div className="member-exec">
                 <img src={Jonathan} alt="jonathan-pic" />
-                <p className="member-name team-lead">Jonathan Thamrin</p>
+                <p className="member-name team-lead">Jonathan Thamrin (Lead)</p>
               </div>
             </div>
           </div>

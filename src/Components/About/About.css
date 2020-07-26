@@ -46,7 +46,6 @@ html {
 
 .sec-div-exec {
   /* border: 1px solid red; */
-  margin-bottom: 0.8rem;
   display: flex;
   justify-content: center;
 }
@@ -71,6 +70,9 @@ html {
 }
 
 .sec-heading-exec {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 1.29rem;
   margin: 1.2rem 0;
   font-size: 1.29rem;
 }
@@ -110,13 +112,14 @@ html {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-content: flex-start;
   flex-wrap: wrap;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 
 .members-exec {
   /* border: 1px solid red; */
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -124,8 +127,11 @@ html {
 
 .member-exec {
   /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
   width: 12vw;
-  height: 22vw;
 }
 
 .member-exec img {
@@ -136,7 +142,7 @@ html {
 
 .member-name {
   margin-top: 0.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   color: #6e777d;
@@ -188,7 +194,6 @@ html {
 
   .sec-div-exec {
     display: block;
-    padding-bottom: 5%;
   }
 
   .sec-heading-pres {
@@ -205,10 +210,14 @@ html {
     justify-content: center;
   }
 
+  .members-exec-div {
+    padding-bottom: 0;
+  }
+
   .member-exec {
     /* border: 1px solid red; */
     width: 25%;
-    height: 40vw;
+    height: 43vw;
   }
 
   .member-pres {
@@ -227,5 +236,9 @@ html {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     font-size: 0.9rem;
+  }
+
+  .last-member {
+    padding-bottom: 7%;
   }
 }
