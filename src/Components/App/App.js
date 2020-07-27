@@ -1,8 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
+
 import collage from "../../images/Why Join Us/collage.png";
 import placeholder from "../../images/placeholder.png";
+
+import bibimbap from "../../images/Sponsors/bibimbap.png";
+import hollywood from "../../images/Sponsors/hollywood.png";
+import noelleeming from "../../images/Sponsors/noelleeming.png";
+import shadows from "../../images/Sponsors/shadows.png";
+import specsavers from "../../images/Sponsors/specsavers.png";
+import unisushi from "../../images/Sponsors/uni-sushi.png";
 
 import NavBar from "../Navigation/NavBar";
 import Footer from "../Footer/Footer";
@@ -90,12 +98,12 @@ class App extends React.Component {
             IBSS was made possible by our generous sponsors.
           </p>
           <div className="sec-content recent-photos">
-            <img src={placeholder} alt="placeholder" />
-            <img src={placeholder} alt="placeholder" />
-            <img src={placeholder} alt="placeholder" />
-            <img src={placeholder} alt="placeholder" />
-            <img src={placeholder} alt="placeholder" />
-            <img src={placeholder} alt="placeholder" />
+            <img src={bibimbap} alt="bibimbap" />
+            <img src={hollywood} alt="hollywoodcafe" />
+            <img src={noelleeming} alt="noelleeming" />
+            <img src={shadows} alt="shadowsbar" />
+            <img src={specsavers} alt="specsavers" />
+            <img src={unisushi} alt="unisushi" />
           </div>
         </div>
 
