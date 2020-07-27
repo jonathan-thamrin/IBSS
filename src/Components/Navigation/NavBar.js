@@ -38,6 +38,7 @@ class NavBar extends React.Component {
             <li className="separator">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeicl2pA0qapQqbmYSInAy9hEIWHbuZkr96TgE1pGi83GNd-w/viewform"
               >
                 Sign-Up

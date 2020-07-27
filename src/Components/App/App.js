@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./App.css";
 import collage from "../../images/Why Join Us/collage.png";
 import placeholder from "../../images/placeholder.png";
@@ -10,6 +11,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="main">
+        <Helmet>
+          <title>IBSS | University of Auckland</title>
+          <meta
+            name="description"
+            content="The Official Website for Information Systems and Business Analytics Student Society at University of Auckland."
+          />
+        </Helmet>
         <div className="header">
           <NavBar />
           <div className="introduction">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./Sponsors.css";
 
 import NavBar from "../Navigation/NavBar";
@@ -8,6 +9,15 @@ class Sponsors extends React.Component {
   render() {
     return (
       <div className="main">
+        <Helmet>
+          <title>
+            Sponsors — Information Systems & Business Analytics Student Society
+          </title>
+          <meta
+            name="description"
+            content="Our sponsors that made the Information Systems & Business Analytics Student Society here at University of Auckland possible."
+          />
+        </Helmet>
         <div className="header">
           <NavBar />
           <div className="introduction">

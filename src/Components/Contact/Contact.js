@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./Contact.css";
 
 import NavBar from "../Navigation/NavBar";
@@ -8,6 +9,17 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="main">
+        <Helmet>
+          <title>
+            Contact Us — Information Systems & Business Analytics Student
+            Society
+          </title>
+          <meta
+            name="description"
+            content="Contact the Information Systems & Business Analytics Student
+            Society - University of Auckland."
+          />
+        </Helmet>
         <div className="header">
           <NavBar />
           <div className="introduction">

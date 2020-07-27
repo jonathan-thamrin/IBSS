@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./Events.css";
 
 import NavBar from "../Navigation/NavBar";
@@ -13,6 +14,15 @@ class Events extends React.Component {
   render() {
     return (
       <div className="main">
+        <Helmet>
+          <title>
+            Events — Information Systems & Business Analytics Student Society
+          </title>
+          <meta
+            name="description"
+            content="Events hosted by IBSS UoA - includes Speaker Events, Case Competitions, Networking Events and more."
+          />
+        </Helmet>
         <div className="header">
           <NavBar />
           <div className="introduction">

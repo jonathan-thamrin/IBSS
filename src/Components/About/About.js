@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./About.css";
 import { isMobile } from "react-device-detect";
 
@@ -26,6 +27,15 @@ class About extends React.Component {
     const lightBlueMob = isMobile ? "light-blue-background" : "";
     return (
       <div className="main">
+        <Helmet>
+          <title>
+            About Us — Information Systems & Business Analytics Student Society
+          </title>
+          <meta
+            name="description"
+            content="We aim to provide students from all faculties with the opportunities to guide career paths, provide a space to meet new friends, host workshops and speaker events with industry professionals. Through interactive events and networking functions we hope to give students the confidence to go out into the industry."
+          />
+        </Helmet>
         <div className="header">
           <NavBar />
           <div className="introduction">
