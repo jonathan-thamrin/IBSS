@@ -11,6 +11,7 @@ import noelleeming from "../../images/Sponsors/noelleeming.png";
 import shadows from "../../images/Sponsors/shadows.png";
 import specsavers from "../../images/Sponsors/specsavers.png";
 import unisushi from "../../images/Sponsors/uni-sushi.png";
+import jewelofindia from "../../images/Sponsors/jewel-of-india.png";
 
 import NavBar from "../Navigation/NavBar";
 import Footer from "../Footer/Footer";
@@ -104,6 +105,7 @@ class App extends React.Component {
             <img src={shadows} alt="shadowsbar" />
             <img src={specsavers} alt="specsavers" />
             <img src={unisushi} alt="unisushi" />
+            <img src={jewelofindia} alt="jewelofindia" />
           </div>
         </div>
 
