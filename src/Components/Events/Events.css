@@ -1,3 +1,4 @@
+/* All Events DIV */
 .events-div {
   /* border: 1px solid red; */
   margin: 0 auto;
@@ -8,6 +9,7 @@
   flex-wrap: wrap;
 }
 
+/* Event DIV */
 .single-event {
   z-index: 0;
   position: relative;
@@ -18,39 +20,65 @@
   justify-content: center;
 }
 
+/* Individual Event Images*/
+
 .single-event img {
   width: 100%;
   height: 100%;
 }
 
-.details-overlay {
-  display: flex;
-  position: absolute;
-  height: 100%;
-  overflow: scroll;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.details-text {
-  padding: 5%;
+/* Font for Event blurb */
+.details-font {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
   color: white;
 }
 
+/* Overlay DIV */
+.details-overlay {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  height: 86%;
+  overflow: scroll;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 5%;
+}
+
+/* Opacity change on hover */
 .details-overlay:hover {
   opacity: 1;
 }
 
+/* All Paragraphs in Overlay */
+.details-overlay p {
+  margin: 2% 0;
+  width: 100%;
+}
+
+/* Font for Date, Link, Location */
+.date,
+.link {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* View on FaceBook */
+.link {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  /* All Events DIV */
   .events-div {
     margin-top: 5%;
     width: 80%;
   }
 
+  /* Event DIV */
   .single-event {
     width: 100%;
     margin-bottom: 10%;
