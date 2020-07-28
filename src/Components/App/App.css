@@ -128,8 +128,11 @@ html {
 .recent-photos img {
   /* border: 1px solid red; */
   width: 32%;
-  padding: 0 0.5%;
   margin-top: 1rem;
+}
+
+.img-shadow {
+  box-shadow: 0.1vw 0.3vw 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 768px) {

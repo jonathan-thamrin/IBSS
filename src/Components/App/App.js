@@ -99,13 +99,13 @@ class App extends React.Component {
             IBSS was made possible by our generous sponsors.
           </p>
           <div className="sec-content recent-photos">
-            <img src={bibimbap} alt="bibimbap" />
-            <img src={hollywood} alt="hollywoodcafe" />
-            <img src={noelleeming} alt="noelleeming" />
-            <img src={shadows} alt="shadowsbar" />
-            <img src={specsavers} alt="specsavers" />
-            <img src={unisushi} alt="unisushi" />
-            <img src={jewelofindia} alt="jewelofindia" />
+            <img className="img-shadow" src={bibimbap} alt="bibimbap" />
+            <img className="img-shadow" src={hollywood} alt="hollywoodcafe" />
+            <img className="img-shadow" src={noelleeming} alt="noelleeming" />
+            <img className="img-shadow" src={shadows} alt="shadowsbar" />
+            <img className="img-shadow" src={specsavers} alt="specsavers" />
+            <img className="img-shadow" src={unisushi} alt="unisushi" />
+            <img className="img-shadow" src={jewelofindia} alt="jewelofindia" />
           </div>
         </div>
 
