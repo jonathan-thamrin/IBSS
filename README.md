@@ -1,3 +1,6 @@
+![Banner]
+(https://imgur.com/a/ScvmL0J)
+
 # Information Systems and Business Analytics Student Society (IBSS)
 ## Objective
 Design, develop and deploy an informational website using React.js. The goal of the website is to provide students with information about the club such as background information, upcoming events, messages from IBSS sponsors and more.
