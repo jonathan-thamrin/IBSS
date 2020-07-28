@@ -1,6 +1,9 @@
 ![banner](https://i.imgur.com/btzwxP5.jpg)
 
 # Information Systems and Business Analytics Student Society (IBSS)
+## Link
+www.uoaibss.co.nz
+
 ## Objective
 Design, develop and deploy an informational website using React.js. The goal of the website is to provide students with information about the club such as background information, upcoming events, messages from IBSS sponsors and more.
 
