@@ -1,4 +1,4 @@
-![banner](https://i.imgur.com/eXfamKL.jpg)
+![banner](https://i.imgur.com/btzwxP5.jpg)
 
 # Information Systems and Business Analytics Student Society (IBSS)
 ## Objective
