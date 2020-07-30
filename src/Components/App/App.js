@@ -66,9 +66,9 @@ class App extends React.Component {
               <img src={placeholder} alt="placeholder" />
               <img src={placeholder} alt="placeholder" />
               <img src={placeholder} alt="placeholder" />
+              {/* <img src={placeholder} alt="placeholder" />
               <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" /> */}
             </div>
           </div>
         </div>

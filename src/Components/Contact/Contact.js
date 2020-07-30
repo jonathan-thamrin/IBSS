@@ -34,7 +34,7 @@ class Contact extends React.Component {
         <div className="sec-div">
           <p className="sec-heading">E-Mail</p>
           <p className="text-content-font sec-subtitles">
-            Send us an e-mail to the address below:
+            Send us an e-mail using the link below:
           </p>
           <div className="sec-content text-content-font">
             <a className="email-href" href="mailto: uoa.ibss@gmail.com">

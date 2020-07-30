@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "./Sponsors.css";
 
+import myob from "../../images/Major Sponsors/myob.jpg";
+
 import NavBar from "../Navigation/NavBar";
 import Footer from "../Footer/Footer";
 
