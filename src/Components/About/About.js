@@ -113,7 +113,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          <div className="members-exec-div width-100">
+          <div className="members-exec-div width-80">
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Events
             </p>
@@ -129,10 +129,6 @@ class About extends React.Component {
               <div className="member-exec">
                 <img src={Jade} alt="jade-pic" />
                 <p className="member-name">Jade Chan</p>
-              </div>
-              <div className="member-exec">
-                <img src={PortraitPH} alt="kabilan-pic" />
-                <p className="member-name">Kabilan Kathiravel</p>
               </div>
             </div>
           </div>

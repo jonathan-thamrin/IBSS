@@ -127,8 +127,10 @@ html {
 
 .recent-photos img {
   /* border: 1px solid red; */
-  width: 32%;
+  width: 30%;
   margin-top: 1rem;
+  box-shadow: 0.2vw 0.2vw 0.8vw rgba(0, 0, 0, 0.4);
+  border-radius: 1%;
 }
 
 .img-shadow {

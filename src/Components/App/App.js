@@ -5,13 +5,12 @@ import "./App.css";
 import collage from "../../images/Why Join Us/collage.png";
 import placeholder from "../../images/placeholder.png";
 
-import bibimbap from "../../images/Sponsors/bibimbap.png";
-import hollywood from "../../images/Sponsors/hollywood.png";
-import noelleeming from "../../images/Sponsors/noelleeming.png";
-import shadows from "../../images/Sponsors/shadows.png";
-import specsavers from "../../images/Sponsors/specsavers.png";
-import unisushi from "../../images/Sponsors/uni-sushi.png";
-import jewelofindia from "../../images/Sponsors/jewel-of-india.png";
+import rp_img_1 from "../../images/Recent Photos/img_1.jpg";
+import rp_img_2 from "../../images/Recent Photos/img_2.jpg";
+import rp_img_3 from "../../images/Recent Photos/img_3.jpg";
+import rp_img_4 from "../../images/Recent Photos/img_4.jpg";
+import rp_img_5 from "../../images/Recent Photos/img_5.jpg";
+import rp_img_6 from "../../images/Recent Photos/img_6.jpg";
 
 import NavBar from "../Navigation/NavBar";
 import Footer from "../Footer/Footer";
@@ -40,7 +39,7 @@ class App extends React.Component {
         <div className="sec-div why-join-us">
           <p className="sec-heading">Why Join Us?</p>
           <p className="text-content-font sec-subtitles">
-            Are you interested Business? Technology? Or both?
+            Are you interested in Business? Technology? Or both?
           </p>
           <div className="sec-content sec-content-mobile">
             <img src={collage} alt="collage" id="why-join-us-img" />
@@ -63,12 +62,12 @@ class App extends React.Component {
               Taken from Meet and Greets, Case Competitions, Events and more!
             </p>
             <div className="sec-content recent-photos">
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              {/* <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" />
-              <img src={placeholder} alt="placeholder" /> */}
+              <img src={rp_img_1} alt="placeholder" />
+              <img src={rp_img_2} alt="placeholder" />
+              <img src={rp_img_3} alt="placeholder" />
+              <img src={rp_img_4} alt="placeholder" />
+              <img src={rp_img_5} alt="placeholder" />
+              <img src={rp_img_6} alt="placeholder" />
             </div>
           </div>
         </div>
@@ -93,21 +92,13 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div className="sec-div">
+        {/* <div className="sec-div">
           <p className="sec-heading">Our 2020 Sponsors</p>
           <p className="text-content-font sec-subtitles">
             IBSS was made possible by our generous sponsors.
           </p>
-          <div className="sec-content recent-photos">
-            <img className="img-shadow" src={bibimbap} alt="bibimbap" />
-            <img className="img-shadow" src={hollywood} alt="hollywoodcafe" />
-            <img className="img-shadow" src={noelleeming} alt="noelleeming" />
-            <img className="img-shadow" src={shadows} alt="shadowsbar" />
-            <img className="img-shadow" src={specsavers} alt="specsavers" />
-            <img className="img-shadow" src={unisushi} alt="unisushi" />
-            <img className="img-shadow" src={jewelofindia} alt="jewelofindia" />
-          </div>
-        </div>
+          <div className="sec-content recent-photos"></div>
+        </div> */}
 
         <div className="light-blue-background">
           <div className="sec-div">

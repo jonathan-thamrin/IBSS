@@ -24,9 +24,7 @@ class Sponsors extends React.Component {
           <NavBar />
           <div className="introduction">
             <p className="wel-to">Our 2020 Sponsors</p>
-            <p className="isbass">
-              Notable mentions for our Sponsors for 2020.
-            </p>
+            <p className="isbass">Notable mentions of our Sponsors for 2020.</p>
           </div>
         </div>
 
