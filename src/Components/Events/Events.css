@@ -40,7 +40,7 @@
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  height: 86%;
+  height: 87%;
   overflow: scroll;
   opacity: 0;
   transition: 0.5s ease;
@@ -66,8 +66,7 @@
   text-transform: uppercase;
 }
 
-/* View on FaceBook */
-.link {
+.hide-link {
   display: none;
 }
 
@@ -82,5 +81,9 @@
   .single-event {
     width: 100%;
     margin-bottom: 10%;
+  }
+
+  .details-font {
+    font-size: 3.7vw;
   }
 }
