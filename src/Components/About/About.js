@@ -9,7 +9,7 @@ import Cecilia from "../../images/Executive/Cecilia.JPG";
 import Estella from "../../images/Executive/Estella.jpeg";
 import Esther from "../../images/Executive/Esther.jpeg";
 import Iven from "../../images/Executive/Iven.jpg";
-import Jade from "../../images/Executive/Jade.jpg";
+
 import Jonathan from "../../images/Executive/Jonathan.jpeg";
 import KeXin from "../../images/Executive/KeXin.jpeg";
 import Pritika from "../../images/Executive/Pritika.JPG";
@@ -113,7 +113,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          <div className="members-exec-div width-80">
+          <div className="members-exec-div width-65">
             <p className="sec-heading-exec sec-heading-font light-blue-font">
               Events
             </p>
@@ -125,10 +125,6 @@ class About extends React.Component {
               <div className="member-exec">
                 <img src={Pritika} alt="pritika-pic" />
                 <p className="member-name">Pritika Chand</p>
-              </div>
-              <div className="member-exec">
-                <img src={Jade} alt="jade-pic" />
-                <p className="member-name">Jade Chan</p>
               </div>
             </div>
           </div>
@@ -177,10 +173,6 @@ class About extends React.Component {
               <div className="member-exec">
                 <img src={Aimee} alt="aimee-pic" />
                 <p className="member-name team-lead">Aimee Lam (Lead)</p>
-              </div>
-              <div className="member-exec">
-                <img src={Jade} alt="jade-pic" />
-                <p className="member-name">Jade Chan</p>
               </div>
             </div>
           </div>
