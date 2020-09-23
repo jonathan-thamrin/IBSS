@@ -1,0 +1,26 @@
+.link-href {
+  margin-top: 1rem;
+  text-decoration: underline;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #6e777d;
+}
+
+.sec-div {
+  padding-bottom: 4%;
+}
+
+.bank-info {
+  margin: 2% 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .email-href {
+    padding-bottom: 0;
+  }
+
+  .sec-div {
+    padding-bottom: 13%;
+  }
+}

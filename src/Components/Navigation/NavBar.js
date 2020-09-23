@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                 <p className="subtitles">Main Page</p>
               </li>
             </Link>
-            <li className="separator">
+            {/* <li className="separator">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -44,7 +44,13 @@ class NavBar extends React.Component {
                 Sign-Up
               </a>
               <p className="subtitles">Join IBSS</p>
-            </li>
+            </li> */}
+            <Link to="/registration" className="router-link separator">
+              <li>
+                <span>Registration</span>
+                <p className="subtitles">Join IBSS</p>
+              </li>
+            </Link>
             <Link to="/events" className="router-link separator">
               <li>
                 <span>Events</span>

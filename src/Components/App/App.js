@@ -11,7 +11,6 @@ import rp_img_4 from "../../images/Recent Photos/img_4.jpg";
 import rp_img_5 from "../../images/Recent Photos/img_5.jpg";
 import rp_img_6 from "../../images/Recent Photos/img_6.jpg";
 
-import careershowcaseimg from "../../images/Events/career-showcase.jpg";
 import myob from "../../images/Sponsors/myob.JPG";
 
 import NavBar from "../Navigation/NavBar";
@@ -38,7 +37,7 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div className="light-blue-background">
+        {/* <div className="light-blue-background">
           <div className="sec-div event-div">
             <div className="sec-content">
               <img
@@ -72,7 +71,7 @@ class App extends React.Component {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="sec-div why-join-us">
           <p className="sec-heading">Why Join Us?</p>
