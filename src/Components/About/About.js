@@ -17,6 +17,7 @@ import Reeshan from "../../images/Executive/Reeshan.jpg";
 import Weiwei from "../../images/Executive/Weiwei.jpeg";
 import YangYang from "../../images/Executive/YangYang.png";
 import Yashika from "../../images/Executive/Yashika.jpg";
+import Richard from "../../images/Executive/Richard.jpg";
 
 import PortraitPH from "../../images/Executive/portrait-ph.jpg";
 
@@ -125,6 +126,17 @@ class About extends React.Component {
               <div className="member-exec">
                 <img src={Pritika} alt="pritika-pic" />
                 <p className="member-name">Pritika Chand</p>
+              </div>
+            </div>
+          </div>
+          <div className="members-exec-div width-35">
+            <p className="sec-heading-exec sec-heading-font light-blue-font">
+              Advisor
+            </p>
+            <div className="members-exec">
+              <div className="member-exec">
+                <img src={Richard} alt="richard-pic" />
+                <p className="member-name team-lead">Richard Li</p>
               </div>
             </div>
           </div>
